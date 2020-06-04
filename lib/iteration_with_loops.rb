@@ -13,5 +13,5 @@ def join_nested_strings(src)
     end
     row_index += 1
   end
-  sentence_array.to_s
+  sentence_array.split.join("_")
 end
